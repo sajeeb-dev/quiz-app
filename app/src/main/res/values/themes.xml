@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Class_quizapp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/navyBkue</item>
+         <item name="colorPrimaryVariant">@color/navyBkue</item>
+         <item name="android:statusBarColor">@color/navyBkue</item>
+    </style>
+
+    <style name="Theme.Class_quizapp" parent="Base.Theme.Class_quizapp" />
+</resources>
