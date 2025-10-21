@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
             highlightButton(correctIndex, Color.GREEN)
         }
 
-        // Next question or finish
+
         if (viewModel.hasNextQuestion()) {
             binding.questionText.postDelayed({
                 viewModel.moveToNextQuestion()
